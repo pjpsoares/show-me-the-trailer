@@ -1,0 +1,8 @@
+{
+  "movieDB": {
+    "apiKey": "5f86d6cce07cd9b3e62158ef47394c23"
+  },
+  "youtube": {
+    "baseUrl": "https://www.youtube.com/watch?v="
+  }
+}

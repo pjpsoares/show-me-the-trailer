@@ -1,0 +1,28 @@
+{
+  "name": "show-me-the-trailer",
+  "version": "1.0.0",
+  "description": "rest API that will return a link for a trailer for a viaplay link",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint src/ test/",
+    "test": "mocha \"test/**/*.spec.js\"",
+    "test-watch": "mocha \"test/**/*.spec.js\" -w"
+  },
+  "author": "Paulo Soares",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "config": "^1.25.1",
+    "express": "^4.14.1",
+    "moviedb": "^0.2.7",
+    "requestify": "^0.2.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.16.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.8.0"
+  }
+}
